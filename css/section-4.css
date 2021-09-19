@@ -1,0 +1,45 @@
+/* section-4 */
+.section-4{
+    height: 100%;
+}
+.section4-content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+/* item */
+.item{
+    position: relative;
+    display: inline-block;
+    border: .1px solid #e8e8e8;
+    margin: 8px;
+    width: 28%;
+    padding: 15px;
+}
+.item:hover{
+    color:var(--whitecolor);
+}
+.item:after{
+    position: absolute;
+    width: 0%;
+    content:"";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .8s;
+}
+.item:hover:after{
+    background: rgb(43, 42, 42);
+    width: 100%;
+}
+.item .icon{
+    color: var(--maincolor);
+}
+.item > p{
+    margin: 20px 0 20 30;
+    color: #999999;
+}
+/* end item */
+/* end section-4 */

@@ -1,0 +1,38 @@
+/* general */
+:root{
+    --maincolor: #6195ff;
+    --whitecolor: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: montserrat,sans-serif;
+}
+*{
+    margin: 0px;
+}
+.overlay{
+    position:absolute;
+    background-color:rgba(29, 29, 29, 0.7);
+    width: 100%;
+    height:100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.section2-content, .section3-content, .section4-content, .section5-content, .section7-content, .section8-content, .section9-content, .section10-content, .section11-content{
+    padding: 100px 0 120px;
+}
+.section2-content > h2, .section3-content > h2, .section4-content > h2, .section7-content > h2, .section9-content, .section10-content > h2, .section11-content > h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.space{
+    width: 30px;
+    height:3px;
+    background-color: var(--maincolor);
+    margin: 0 auto 80 auto;
+}
+/* end general */

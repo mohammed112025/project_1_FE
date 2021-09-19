@@ -1,0 +1,53 @@
+/* section-2 */
+.section2-content{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+/* content */
+.about{
+    display: flex;
+}
+.about div{
+    position: relative;
+    margin: 0px 2%;
+    border: .1px solid #e8e8e8;
+    width: 31.5%;
+    text-align: center;
+    padding:30px 10 40 10;
+    line-height: 1.4em;
+    transition: .5s;
+    transition: color .1s;
+}
+.about div::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(43, 42, 42);
+    transition: width .5s;
+    z-index: -1;
+}
+.about div:hover:after{
+    width: 100%;
+}
+.about div:hover{
+    color: var(--whitecolor);
+}
+.about h2{
+    margin: 15px 0 15 0;
+}
+.about p{
+    color: #999999;
+}
+.about i{
+    color: var(--maincolor);
+}
+.about a{
+    color: var(--maincolor);
+}
+/* end content */
+/* end section-2 */

@@ -1,0 +1,28 @@
+/* section-6 */
+.section-6{
+    color: var(--whitecolor);
+    position: relative;
+    background-image: url("../images/background/background2.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40%;
+}
+.section6-content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.dep{
+    padding: 20px;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    width: 15%;
+}
+.dep .num{
+    font-size: 2.5em;
+    padding: 10px;
+}
+.ico{
+    color: var(--maincolor);
+}
+/* end section-6 */

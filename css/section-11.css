@@ -1,0 +1,54 @@
+
+/* section-11 */
+.section11-content{
+    width: 80%;
+    margin: auto;
+}
+.icoons{
+    display: flex;
+}
+.icoons > div{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0px 100;
+    line-height: 2.5em;
+    color: #a7a7a7;
+}
+.icoons > div > b{
+    color: black;
+    font-size: 1.4em;
+}
+.form{
+    padding: 40px 0 0 0;
+    width: 65%;
+    margin: auto;
+}
+input{
+    height: 30px;
+    border: 0px;
+    background-color: #f8f8f8;
+    width: 45%;
+    margin: 5px;
+    padding-left: 5px;
+}
+.sub{
+    width: 92%;
+}
+.mas{
+    width: 92%;
+    padding: 15px 0 60 5;
+}
+.but{
+    border: 0px;
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    margin: 20px 430;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+}
+.but:hover{
+    opacity: .9;
+}
+/* end section-11 */
